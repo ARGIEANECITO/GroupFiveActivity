@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/red"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+
+        android:text="DASHBOARD"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#EDE6E6"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="221dp"
+        android:layout_height="278dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ja" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+
+        android:text="ID NUMBER:20192435"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#EDE6E6"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+
+        android:layout_height="61dp"
+        android:text="NAME:JAKE MEDRANO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#EDE6E6"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="257dp"
+        android:layout_height="91dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="29dp"
+        android:text="LOG OUT"
+        android:textColor="#FA0D0D"
+        android:textSize="34sp"
+        app:backgroundTint="#EDE9E9" />
+
+    android:onClick = "lOGIN"
+
+</LinearLayout>
